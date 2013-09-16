@@ -1,0 +1,7 @@
+   <system.serviceModel>
+    <extensions>
+      <behaviorExtensions>
+        <add name="serviceRolesAndCertAuthorization" type="Riziv.BizTalk.Common.ServiceRolesAndCertAuthZExElement, RIZIV.BizTalk.Common.ServiceRolesAndCertAuthorization, Version=1.0.0.0, Culture=neutral, PublicKeyToken=cf6cdbeae0168bf4"/>	
+      </behaviorExtensions>
+    </extensions>
+   </system.serviceModel>

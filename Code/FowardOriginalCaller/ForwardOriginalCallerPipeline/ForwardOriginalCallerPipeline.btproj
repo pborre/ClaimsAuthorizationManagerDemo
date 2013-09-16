@@ -1,0 +1,89 @@
+﻿<VisualStudioProject>
+    <BIZTALK
+        ProductVersion = "3.6.1404"
+        SchemaVersion = "1.0"
+        ProjectGuid = "{9F953DAB-A95E-443A-9E11-59522B8B6EB1}"
+    >
+        <Build>
+            <Settings>
+                <EditorCommon/>
+                <ProjectCommon
+                    AssemblyKeyName = ""
+                    AssemblyKeyFile = "D:\Riziv\Projects\riziv-inami.snk"
+                    AssemblyDelaySign = "False"
+                    AssemblyTitle = ""
+                    AssemblyDescription = ""
+                    AssemblyDefaultAlias = ""
+                    AssemblyConfiguration = ""
+                    AssemblyTrademark = ""
+                    AssemblyProduct = ""
+                    AssemblyInformationalVersion = "1.0.0.0"
+                    AssemblyFileVersion = "1.0.0.0"
+                    AssemblyCopyright = ""
+                    AssemblyCompany = ""
+                    AssemblyVersion = "1.0.0.0"
+                    DefaultNamespace = "ForwardOriginalCallerPipeline"
+                    AssemblyName = "ForwardOriginalCallerPipeline"
+                />
+                <Config
+                    Name = "Development"
+                    ApplicationName = ""
+                    BpelCompliance = "True"
+                    GenerateDebuggingInformation = "True"
+                    EmbedTrackingInformation = "True"
+                    TreatWarningsAsErrors = "False"
+                    WarningLevel = "4"
+                    OutputPath = "bin\Development\"
+                />
+                <Config
+                    Name = "Deployment"
+                    ApplicationName = ""
+                    BpelCompliance = "True"
+                    GenerateDebuggingInformation = "False"
+                    EmbedTrackingInformation = "True"
+                    TreatWarningsAsErrors = "False"
+                    WarningLevel = "4"
+                    OutputPath = "bin\Deployment\"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                />
+                <Reference
+                    Name = "System.configuration"
+                    AssemblyName = "System.Configuration"
+                />
+                <Reference
+                    Name = "Microsoft.BizTalk.DefaultPipelines"
+                    AssemblyName = "Microsoft.BizTalk.DefaultPipelines"
+                />
+                <Reference
+                    Name = "Microsoft.BizTalk.GlobalPropertySchemas"
+                    AssemblyName = "Microsoft.BizTalk.GlobalPropertySchemas"
+                />
+                <Reference
+                    Name = "Riziv.BizTalk.Common.ForwardOriginalCallerComponent"
+                    AssemblyName = "Riziv.BizTalk.Common.ForwardOriginalCallerComponent"
+                    HintPath = "C:\Program Files\Microsoft BizTalk Server 2006\Pipeline Components\Riziv.BizTalk.Common.ForwardOriginalCallerComponent.dll"
+                />
+            </References>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "sndForwardOriginalCaller.btp"
+                    BuildAction = "Compile"
+                    Namespace = "ForwardOriginalCallerPipeline"
+                    Type = "sndForwardOriginalCaller"
+                />
+            </Include>
+        </Files>
+    </BIZTALK>
+</VisualStudioProject>
+

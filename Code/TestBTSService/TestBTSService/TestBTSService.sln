@@ -1,0 +1,21 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{EF7E3281-CD33-11D4-8326-00C04FA0CE8D}") = "TestBTSService", "TestBTSService.btproj", "{A31A53A2-685B-4D39-9543-45275DD0D5AE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Deployment|.NET = Deployment|.NET
+		Development|.NET = Development|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A31A53A2-685B-4D39-9543-45275DD0D5AE}.Deployment|.NET.ActiveCfg = Deployment|.NET
+		{A31A53A2-685B-4D39-9543-45275DD0D5AE}.Deployment|.NET.Build.0 = Deployment|.NET
+		{A31A53A2-685B-4D39-9543-45275DD0D5AE}.Deployment|.NET.Deploy.0 = Deployment|.NET
+		{A31A53A2-685B-4D39-9543-45275DD0D5AE}.Development|.NET.ActiveCfg = Development|.NET
+		{A31A53A2-685B-4D39-9543-45275DD0D5AE}.Development|.NET.Build.0 = Development|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestAuthzBehaviorClient", ".\TestAuthzBehaviorClient\TestAuthzBehaviorClient.csproj", "{CD5C2D9C-9A9F-484E-A3F2-0441EC84DBD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestAuthZService", ".\TestAuthZService\TestAuthZService.csproj", "{00F99B3A-55D0-43DE-9781-1F6A7F53FEFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestAuthZServiceHost", ".\TestAuthZServiceHost\TestAuthZServiceHost.csproj", "{EA99E62D-4A0F-4A6F-B946-50E09DFB331C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD5C2D9C-9A9F-484E-A3F2-0441EC84DBD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD5C2D9C-9A9F-484E-A3F2-0441EC84DBD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD5C2D9C-9A9F-484E-A3F2-0441EC84DBD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD5C2D9C-9A9F-484E-A3F2-0441EC84DBD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00F99B3A-55D0-43DE-9781-1F6A7F53FEFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00F99B3A-55D0-43DE-9781-1F6A7F53FEFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00F99B3A-55D0-43DE-9781-1F6A7F53FEFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00F99B3A-55D0-43DE-9781-1F6A7F53FEFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA99E62D-4A0F-4A6F-B946-50E09DFB331C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA99E62D-4A0F-4A6F-B946-50E09DFB331C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA99E62D-4A0F-4A6F-B946-50E09DFB331C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA99E62D-4A0F-4A6F-B946-50E09DFB331C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

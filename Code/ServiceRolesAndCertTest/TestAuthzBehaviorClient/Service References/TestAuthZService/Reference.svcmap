@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="46ba7349-0308-4f00-b6a3-e239a69398fd" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:81/TestAuthZService" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Service1.wsdl" MetadataType="Wsdl" ID="e1dbcde9-6a4f-421f-975a-6b0040f51070" SourceId="1" SourceUrl="http://localhost:81/TestAuthZService?wsdl" />
+    <MetadataFile FileName="TestAuthZService.xsd" MetadataType="Schema" ID="ba73df2c-7c68-4a63-be8e-7bb2c304a8fa" SourceId="1" SourceUrl="http://localhost:81/TestAuthZService?xsd=xsd0" />
+    <MetadataFile FileName="TestAuthZService1.xsd" MetadataType="Schema" ID="f4eeb011-2ae6-4343-849b-87226244fb68" SourceId="1" SourceUrl="http://localhost:81/TestAuthZService?xsd=xsd2" />
+    <MetadataFile FileName="TestAuthZService2.xsd" MetadataType="Schema" ID="174b5959-37b6-472a-bdb7-ffeeb65cf7a1" SourceId="1" SourceUrl="http://localhost:81/TestAuthZService?xsd=xsd1" />
+    <MetadataFile FileName="TestAuthZService.disco" MetadataType="Disco" ID="c1765bdb-2273-4719-a4f4-b8a54d31d6ac" SourceId="1" SourceUrl="http://localhost:81/TestAuthZService?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
